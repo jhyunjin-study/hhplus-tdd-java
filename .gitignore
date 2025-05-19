@@ -1,0 +1,50 @@
+# Gradle 빌드 결과물
+.gradle/
+build/
+
+# Maven 빌드 결과물
+target/
+
+# IntelliJ IDEA 설정 파일
+.idea/
+*.iml
+*.iws
+out/
+
+# 로그 파일
+*.log
+logs/
+
+# 운영체제별 파일 무시
+.DS_Store
+Thumbs.db
+
+# 환경설정 파일 (로컬용, 필요시 주석 해제해서 사용)
+# application.properties
+# application.yml
+
+# Eclipse 관련 (만약 Eclipse 사용 시)
+.classpath
+.project
+.settings/
+
+# 패키지 매니저
+node_modules/
+
+# 기타 임시 파일
+*.tmp
+*.bak
+*.swp
+*~
+
+# JAR 파일
+*.jar
+
+# Spring Boot 실행 시 생성되는 파일
+spring.log
+
+# Lombok 설정 파일 (필요시)
+*.lombok.config
+
+# VSCode 설정 (필요시)
+.vscode/
